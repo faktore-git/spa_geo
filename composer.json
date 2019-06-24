@@ -2,6 +2,7 @@
     "name": "faktore-git/spa_geo",
     "description": "NABU SPA mapshapes",
     "homepage": "https://github.com/faktore-git/spa_geo",
+    "type": "typo3-cms-extension",
     "license": "proprietary",
     "authors": [
         {
@@ -16,6 +17,11 @@
         "spa_geo": "self.version"
     },
 
+    "config": {
+        "vendor-dir": ".Build/vendor",
+        "bin-dir": ".Build/bin"
+    },
+
     "scripts": {
         "post-autoload-dump": [
           "touch spa-geo-core.autoload",
@@ -27,5 +33,12 @@
           "[ -L .Build/Web/typo3conf/ext/fe_spa/Resources/Public/MapData/spa_de_2018_medium.topojson ] || ln -snvf ../../../../spa_de_2018_medium.topojson .Build/Web/typo3conf/ext/fe_spa/Resources/Public/MapData/spa_de_2018_medium.topojson",
           "[ -L .Build/Web/typo3conf/ext/fe_spa/Resources/Public/MapData/spa_de_2018_simplified.geojson ] || ln -snvf ../../../../spa_de_2018_simplified.geojson .Build/Web/typo3conf/ext/fe_spa/Resources/Public/MapData/spa_de_2018_simplified.geojson"
         ]
+    },
+
+    "extra": {
+        "typo3/cms": {
+            "cms-package-dir": "{$vendor-dir}/typo3/cms",
+            "web-dir": ".Build/Web"
+        }
     }
 }
