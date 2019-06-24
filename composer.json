@@ -1,0 +1,14 @@
+{
+    "name": "faktore-git/spa_geo",
+    "description": "NABU SPA mapshapes",
+    "homepage": "https://github.com/faktore-git/spa_geo",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Faktor E GmbH",
+            "email": "info@faktor-e.de",
+            "homepage": "https://www.www.faktor-e.de",
+            "role": "Developer"
+        }
+    ]
+}
