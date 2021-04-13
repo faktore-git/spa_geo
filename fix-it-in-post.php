@@ -6,7 +6,7 @@ $rules = array(
 	"Marschen am  Jadebusen",
 
 	"Vogelschutzgebiet 'Rietberger Emsnied. mit Steinhorster Becken'" => 
-	"VSG 'Rietberger Emsniederung mit Steinhorster Becken",
+	"VSG 'Rietberger Emsniederung mit Steinhorster Becken'",
 
 	"Vogelschutzgebiet 'Schwalm-Nette-Platte mit Grenzwald und Meinweg'" => 
 	"Vogelschutzgebiet 'Schwalm-Nette-Platte mit Grenzwald u. Meinweg'",
